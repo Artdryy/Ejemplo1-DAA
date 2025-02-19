@@ -75,8 +75,8 @@ fun Suma() {
                 resultado = (num1 + num2).toString()
             },
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFFFF9800), // Naranja
-                contentColor = Color.Black // Texto negro
+                containerColor = Color(0xFFFF9800),
+                contentColor = Color.Black
             )
         ) {
             Text(text = "Calcular")
